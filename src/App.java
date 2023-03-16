@@ -12,7 +12,7 @@ public class App {
         {
           System.out.println("Il numero è positivo");  
         }
-        else if (numero==0)
+        else  //Non ha bisogno di if perchè se il numero non è né >0 né <0 è per forza == 0
         {
           System.out.println("Il numero è uguale a zero");  
         }
